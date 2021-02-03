@@ -172,6 +172,8 @@ typedef NS_ENUM(NSUInteger, JGActionSheetArrowDirection) {
  */
 @property (nonatomic, strong, readonly) NSArray *sections;
 
+@property (nonatomic, strong) UIColor *arrowColor;
+
 /**
  The delegate of the action sheet.
  */
